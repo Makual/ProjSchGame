@@ -18,8 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"buldung","path":"objects/buldung/buldung.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":66,"eventType":9,"collisionObjectId":null,"parent":{"name":"buldung","path":"objects/buldung/buldung.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Builder","path":"objects/Builder/Builder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":66,"eventType":9,"collisionObjectId":null,"parent":{"name":"Builder","path":"objects/Builder/Builder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Logic objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "buldung",
+  "name": "Builder",
   "tags": [],
   "resourceType": "GMObject",
 }
