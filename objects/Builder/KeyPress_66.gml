@@ -5,14 +5,15 @@ if !opencount{
 	if (casarmCount!=0){
 		instance_create_layer(50,450,"MenuBuildButtons",CasarmButton);
 	}
-	}
-	else{
-	Builder.opencount=false;
-	with(MenuBackground){
-	instance_destroy();
-	}
-	with(CasarmButton){
-	instance_destroy();
-	}
+}
+else{
+		opencount=false;
+		with(MenuBackground){
+			instance_destroy();
+		}
+		with(CasarmButton){
+			instance_destroy();
+		}
 	MainBuild.is_pause=false;
-	}
+}
+
