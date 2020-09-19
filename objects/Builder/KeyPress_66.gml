@@ -15,4 +15,4 @@ if !opencount{
 	instance_destroy();
 	}
 	MainBuild.is_pause=false;
-}
+	}
