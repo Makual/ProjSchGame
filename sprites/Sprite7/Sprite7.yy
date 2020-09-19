@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cb59c7ad-048a-44b1-bca2-96e51b2171c4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "SchProjGame",
-    "path": "SchProjGame.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite7",

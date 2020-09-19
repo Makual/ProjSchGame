@@ -1,3 +1,3 @@
 targeting = false;
-target_X = 0;
-target_Y = 0;
+target_X = -1;
+target_Y = -1;

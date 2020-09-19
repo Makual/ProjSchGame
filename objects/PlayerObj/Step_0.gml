@@ -16,10 +16,12 @@ if(targeting)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4E55D5DA
-/// @DnDArgument : "code" "targeting = false;$(13_10)show_debug_message(MainBuild.is_pause)$(13_10)if (abs(target_X - x) <= 5) and (abs(target_Y - y) <= 5){$(13_10)	speed = 0;	$(13_10)	MainBuild.is_pause = false;$(13_10)}"
+/// @DnDArgument : "code" "targeting = false;$(13_10)$(13_10)if (abs(target_X - x) <= 5) and (abs(target_Y - y) <= 5){$(13_10)	speed = 0;	$(13_10)	MainBuild.is_pause = false;$(13_10)	target_X = -1;$(13_10)	target_Y = -1;$(13_10)}"
 targeting = false;
-show_debug_message(MainBuild.is_pause)
+
 if (abs(target_X - x) <= 5) and (abs(target_Y - y) <= 5){
 	speed = 0;	
 	MainBuild.is_pause = false;
+	target_X = -1;
+	target_Y = -1;
 }
